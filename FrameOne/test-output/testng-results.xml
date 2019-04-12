@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-12T09:28:15Z" name="Suite" finished-at="2019-04-12T09:28:25Z" duration-ms="9916">
+  <suite started-at="2019-04-12T12:25:20Z" name="Suite" finished-at="2019-04-12T12:25:38Z" duration-ms="18450">
     <groups>
     </groups>
-    <test started-at="2019-04-12T09:28:15Z" name="Test" finished-at="2019-04-12T09:28:25Z" duration-ms="9916">
+    <test started-at="2019-04-12T12:25:20Z" name="Test" finished-at="2019-04-12T12:25:38Z" duration-ms="18450">
       <class name="sitetesting.SelectFromFirstRow">
-        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:sitetesting.SelectFromFirstRow@4e3958e7]" started-at="2019-04-12T09:28:15Z" name="StartBrowser" finished-at="2019-04-12T09:28:23Z" duration-ms="7641" status="PASS">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:sitetesting.SelectFromFirstRow@4e3958e7]" started-at="2019-04-12T12:25:20Z" name="StartBrowser" finished-at="2019-04-12T12:25:28Z" duration-ms="7888" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartBrowser -->
-        <test-method signature="SelectionfromRows()[pri:0, instance:sitetesting.SelectFromFirstRow@4e3958e7]" started-at="2019-04-12T09:28:23Z" name="SelectionfromRows" finished-at="2019-04-12T09:28:25Z" duration-ms="2071" status="PASS">
+        <test-method signature="SelectionfromRows()[pri:0, instance:sitetesting.SelectFromFirstRow@4e3958e7]" started-at="2019-04-12T12:25:28Z" name="SelectionfromRows" finished-at="2019-04-12T12:25:31Z" duration-ms="3206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectionfromRows -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:sitetesting.SelectFromFirstRow@4e3958e7]" started-at="2019-04-12T09:28:25Z" name="closeBrowser" finished-at="2019-04-12T09:28:25Z" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:sitetesting.SelectFromFirstRow@4e3958e7]" started-at="2019-04-12T12:25:31Z" name="closeBrowser" finished-at="2019-04-12T12:25:38Z" duration-ms="7319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
