@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="sitetesting.SearchFlight" class="method navigator-link" hash-for-method="selectFromAndTo">selectFromAndTo</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="sitetesting.SelectFromFirstRow" class="method navigator-link" hash-for-method="SelectionfromRows">SelectionfromRows</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -120,14 +120,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">sitetesting.SearchFlight</span>
+              <span class="class-name">sitetesting.SelectFromFirstRow</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="selectFromAndTo">
-                  </a> <!-- selectFromAndTo -->
-                  <span class="method-name">selectFromAndTo</span>
+                  <a name="SelectionfromRows">
+                  </a> <!-- SelectionfromRows -->
+                  <span class="method-name">SelectionfromRows</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -144,7 +144,7 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;sitetesting.SearchFlight&quot;/&gt;
+      &lt;class name=&quot;sitetesting.SelectFromFirstRow&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -186,14 +186,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'selectFromAndTo')
-data.setCell(0, 2, 'sitetesting.SearchFlight')
-data.setCell(0, 3, 6);
+data.setCell(0, 1, 'SelectionfromRows')
+data.setCell(0, 2, 'sitetesting.SelectFromFirstRow')
+data.setCell(0, 3, 2071);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 ms</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -219,15 +219,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">sitetesting.SearchFlight</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">sitetesting.SelectFromFirstRow</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">StartBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">selectFromAndTo</span>
-                <span class="method-start">10737 ms</span>
+                <span class="method-name">SelectionfromRows</span>
+                <span class="method-start">7655 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">9730 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

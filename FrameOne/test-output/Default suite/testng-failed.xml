@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sitetesting.SearchFlight">
+      <class name="sitetesting.SelectFromFirstRow">
         <methods>
-          <include name="selectFromAndTo"/>
+          <include name="StartBrowser"/>
+          <include name="SelectionfromRows"/>
         </methods>
-      </class> <!-- sitetesting.SearchFlight -->
+      </class> <!-- sitetesting.SelectFromFirstRow -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

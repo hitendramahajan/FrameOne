@@ -40,4 +40,10 @@ public class Base {
 		return driver;
 	}
 	
+	public void closeBrowserSession() throws IOException
+	{
+		 driver=invokeBrowser();
+		 driver.close();
+	}
+	
 }

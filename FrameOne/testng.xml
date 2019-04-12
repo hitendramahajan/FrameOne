@@ -5,7 +5,7 @@
 
   <test name="Test">
     <classes>
-       <class name="sitetesting.SearchFlight"/>
+       <class name="sitetesting.SelectFromFirstRow"/>
     </classes>
     
   </test>
